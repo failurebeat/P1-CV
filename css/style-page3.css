@@ -1,0 +1,59 @@
+/* Google Font Open Sans */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+/* Global CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	margin: 80px;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: rgb(255,255,255);
+	font-weight: 600;
+}
+section {
+	width: 100%;
+	float: left;
+}
+p {
+	font-size: 18px;
+    line-height: 1.5;
+}
+.bcolor {
+	background: lightgrey;
+	width: 100%;
+	margin: 0 auto;
+}
+.bcolor h4 {
+	padding: 4px 0px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: grey;
+}
+
+/* Theme Main CSS */
+.par {
+	padding: 10px 0px;
+}
+.declare {
+	padding-bottom: 200px;
+}
+footer p {
+	font-size: 16px;
+	font-weight: 700;
+}
+#fp {
+	font-weight: 400;
+}
